@@ -1,3 +1,21 @@
 #links{
     display: inline;
 }
+#seperator{
+    border: 10px solid black;
+    height: 2px;
+}
+#pageHead{
+    color: burlywood;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+}
+#hrefs{
+    text-align: center;
+    font-size: 20px;
+
+}
+body{
+    border: 5px solid black;
+}
