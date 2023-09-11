@@ -1,0 +1,37 @@
+#leftTable{
+    width: 32%;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+input[type="text"]{
+    width: 98%;
+}
+input[type="password"]{
+    width: 98%;
+}
+#Address{
+    width: 98%;
+    height: 50px;
+}
+#regButton{
+    margin-left: 640px;
+}
+#tabReg{
+    margin-left: 410px;
+    margin-top: 40px;
+    border: 2px solid black;  
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#last{
+    text-align: right;
+}
+body{
+    background-image: url(FormHTMLbg.png);
+    background-size: cover;
+    
+}
