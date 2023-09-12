@@ -1,0 +1,57 @@
+/* Apply styles to the sidebar container */
+.sidebar {
+  width: 100px; /* Set the width of the sidebar */
+  background-color:  white; /* Background color for the sidebar */
+  padding: 5px;
+  border: 2px solid black;
+}
+
+
+/* Style the navigation list */
+.sidebar ul {
+  list-style: none; /* Remove default list bullets */
+  padding: 0;
+}
+
+/* Style the navigation list items */
+.sidebar ul li {
+  margin: 5px 0; /* Add margin to space out the list items */
+}
+
+/* Style the navigation links */
+.sidebar ul li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #450bf0; /* Text color for links */
+}
+
+/* Hover effect for links */
+.sidebar ul li:hover  {
+  background-color: coral; /* Change text color on hover */
+}
+.sidebar ul li:hover a  {
+  color: white; /* Change text color on hover */
+}
+
+.padBoder{
+    background-color:#79cae7;
+    padding: 2px;
+}
+
+
+
+.horiBar{
+    background-color: rgb(217, 255, 255);
+    padding: 3px;
+}
+.horiBar ul li{
+     display: inline;
+     
+}
+.horiBar ul li a{
+     text-decoration: none;
+     color: #450bf0;
+}
+.horiBar ul li{
+     margin: 10px;
+}
+
