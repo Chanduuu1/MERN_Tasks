@@ -1,0 +1,17 @@
+table,th,td{
+    border-collapse: collapse;
+    border-bottom: 0px solid black;
+    width: 40%;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+th{
+    background-color: rgb(13, 203, 13);
+    color: white;
+    text-align: left;
+}
+table{
+    margin-left: 450px;
+    margin-top: 50px;
+}
