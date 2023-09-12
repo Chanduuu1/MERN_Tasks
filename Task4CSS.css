@@ -1,0 +1,34 @@
+#mysidenav a{
+    text-decoration: none;
+    position: absolute;
+    transition: 0.3s;
+    left: -88px;
+    padding: 15px;
+    width: 100px;
+    border-radius: 0 5px 10px 0;
+    color: rgb(14, 2, 2);
+}
+
+#mysidenav a:hover{
+    left: 0;
+}
+
+#Home{
+    top: 20px;
+    background-color: greenyellow;
+}
+#About{
+    top: 80px;
+    background-color: lightblue;
+}
+#Projects{
+    top: 140px;
+    background-color: red;
+}
+#Contact{
+    top: 200px;
+    background-color: grey;
+}
+#head{
+    margin-left: 200px;
+}
