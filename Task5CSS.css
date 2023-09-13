@@ -1,20 +1,32 @@
 .navbar ul{
-    margin-top: 50px;
+    position: absolute;
+    margin-top: 40px;
     list-style: none;
 }
 
 .navbar ul li {
     padding: 10px;
     background-color: rgb(255, 247, 233);
+    border-right: 10px solid black;
     width: 100px;
     height: 15px;
-    border-right: 10px solid black;
 }
 
 .navbar ul li a{
     text-decoration: none;
+    color: rgb(252, 154, 170);
+    font-weight: bold;
 }
 
 body{
     background-color: rgb(32, 231, 201);
+}
+
+.container{
+    margin-left: 300px;
+    color: rgb(249, 11, 51);
+}
+.container p{
+    font-size: 18px;
+    font-weight: gold;
 }
