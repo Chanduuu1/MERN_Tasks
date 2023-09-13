@@ -1,0 +1,20 @@
+.navbar ul{
+    margin-top: 50px;
+    list-style: none;
+}
+
+.navbar ul li {
+    padding: 10px;
+    background-color: rgb(255, 247, 233);
+    width: 100px;
+    height: 15px;
+    border-right: 10px solid black;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(32, 231, 201);
+}
