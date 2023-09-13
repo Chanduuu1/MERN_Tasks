@@ -1,3 +1,10 @@
 #lHead{
     color: rgb(3, 83, 62);
 }
+.con{
+    display: flex;
+
+}
+#out{
+    border: 2px solid black;
+}
