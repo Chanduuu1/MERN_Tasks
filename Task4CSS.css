@@ -11,6 +11,7 @@
 
 #mysidenav a:hover{
     left: 0;
+    text-align: end;
 }
 
 #Home{
