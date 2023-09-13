@@ -1,0 +1,56 @@
+.textfield{
+    padding: 0;
+    height: 30px;
+    width: 400px;
+}
+h4{
+    margin-bottom: 5px;
+}
+.container{
+    background-color: rgb(249, 248, 248);
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Vh ie viewport height - height: 100vh;: This CSS rule sets the height of the body element to 100% of the viewport height. The viewport height represents the height of the visible area of the web page in the browser window.
+                    The purpose of setting the body height to 100vh in this context is to ensure that the body covers the entire viewport height, allowing the flex container (.container) to be centered both horizontally and vertically within the viewport. */
+
+}
+#Login{
+    width: 404px;
+    background-color: rgb(59, 237, 27);
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+#cancel{
+    width: 110px;
+    height: 30px;
+    background-color: rgb(255, 40, 40);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.container2{
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    display: flex;
+    align-items: center; /*aligns vertically*/
+    
+}
+hr{
+    margin: 0px;
+}
+
+.container2 p{
+    margin-left: auto;
+}
+.userImg{
+    display: flex;
+    justify-content: center;
+}
