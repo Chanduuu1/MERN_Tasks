@@ -30,3 +30,8 @@ body{
     font-size: 18px;
     font-weight: gold;
 }
+
+hr{
+    height: 5px;
+    background: rgb(249, 11, 51);
+}
