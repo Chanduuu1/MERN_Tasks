@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Task7CSS.css">
+</head>
+<body>
+    
+    <div class="container2">
+        <h1>Registertion Form</h1>
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        <Label for="name">Name</Label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" placeholder="Enter Name">
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <Label for="email">Email</Label> 
+                    </td>
+                    <td>
+                        <input type="text" id="email" placeholder="Email@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="password">Password</Label>
+                    </td>
+                    <td>
+                        <input type="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="phnNo">Phone Number</Label>
+                    </td>
+                    <td>
+                        <input type="text" id="phnNo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="gender">Gender:</Label>
+                    </td>
+                    <td>
+                        <Label for="male">Male:</Label>
+                        <input type="radio" id="male" name="gender">
+                        <Label for="female">Female:</Label>
+                        <input type="radio" id="female" name="gender">
+                        <Label for="others">Others:</Label>
+                        <input type="radio" id="others" name="gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="lang">Language:</Label>
+                    </td>
+                    <td>
+                        <select name="lang" id="lng">
+                            <option value="" disabled selected>Choose a Language</option>
+                            <option value="hindi">Hindi</option>
+                            <option value="eng">English</option>
+                            <option value="guj">Gujarati</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="zip">ZipCode:</Label>
+                    </td>
+                    <td>
+                        <input type="text" id="zip">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Label for="about">About:</Label>
+                    </td>
+                    <td>
+                        <textarea name="abt" id="about" cols="20" rows="5" placeholder="Write about yourself...."></textarea>
+                    </td>
+                </tr>
+            </table>
+            <button>Register</button>
+        </div>
+    </div>
+</body>
+</html>
