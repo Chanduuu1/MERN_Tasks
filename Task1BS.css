@@ -1,0 +1,61 @@
+h2{
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 6px;
+
+}
+.navbar1 ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+    background-color: rgba(175, 174, 174, 0.626);
+    padding: 8px;
+    margin: 0px;
+    
+}
+li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+#HOME{
+    margin-left: 0px;
+}
+
+#rytSide{
+    margin-left: auto;
+    display: flex;
+    background-color: transparent;
+}
+
+#rytSide a{
+    color: white;
+    font-weight: bold;
+}
+
+.container1{
+    display: flex;
+}
+
+#rightPane{
+    width: 350px;
+    height: 100vh;
+    background-color: rgb(75, 75, 75);
+    margin-right: 0px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+}
+
+#leftPane{
+    width: 1300px;
+    text-align: center;
+
+}
