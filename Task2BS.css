@@ -1,0 +1,242 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container1{
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.navv{
+    background-color: #fdbe33;
+    height: 130px;
+    width: 1312px;
+    
+    
+}
+
+
+.mainHead h1{
+    font-weight: 800;
+    color: #030f27;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif:
+}
+
+.opnhr{
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+        margin-right: 90px;
+        
+}
+
+.ohicon{
+    margin-left: 10px;
+}
+
+.oh-first{
+    font-size: 1.0rem;
+    margin: 0;
+    font-weight: 550;
+}
+.oh-sec{
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.navv-details{
+    display: flex;
+    margin-left: auto;
+    align-items:baseline;
+    margin-top: 15px;
+
+}
+
+.nav-top{
+    display: flex;
+
+}
+
+.nav-toggle ul{
+    list-style-type: none;
+    align-items: center;
+    
+}
+
+.nav-toggle ul a{
+    text-decoration: none;
+    color: white;
+    padding: 13px;
+    font-size: 0.9rem;
+    
+}
+
+.nav-toggle{
+    background-color: #030f27;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 64px;
+    align-items: center;
+    display: flex; 
+    
+}
+
+.nav-toggler{
+    display: flex;
+    margin: 0px;
+}
+
+.dropdown{
+    background-color: transparent;
+    color: white;
+    align-items: baseline;
+    font-size: 0.9rem;
+}
+
+button.btn.dropdown-toggle{
+    padding: 13px;
+    border: 0px;
+    margin-top: 0px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.highlight a{
+    color: white;
+}
+.highlight a:hover{
+    color: #fdbe33;
+}
+
+.para-right{
+    color: white;
+    width: 140px;
+    height: 40px;
+    margin-left: 420px;
+    align-items: center;
+    justify-content: center;
+    border: 1.3px solid white;
+    display: flex;
+    font-weight: bold;
+    
+}
+
+.para-right p{
+    margin-bottom: 0px;
+}
+
+
+.hero{
+    width: 1312px;
+    height: 600px;
+    background-image: url('hero3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.hero-text{
+    color:#ffffff;
+    margin-bottom: 140px;
+    
+}
+
+.hero-text h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.hero-text h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 3.3rem;
+}
+
+.para-right2{
+    color: white;
+    width: 160px;
+    height: 50px;
+    margin-left: 230px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 1.8px solid white;
+    display: flex;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    
+}
+
+.para-right2 p{
+    margin-bottom: 0px;
+}
+
+
+.ender{
+    display: flex;
+    
+}
+
+.exprt{
+    width: 33%;
+    display: flex;
+    padding: 30px;
+    background-color: #030f27;
+    color: #fdbe33;
+}
+.qlty{
+    width: 33%;
+    display: flex;
+    padding: 30px;
+    background-color:#fdbe33;
+    color: #030f27;
+}
+.supp{
+    width: 33%;
+    display: flex;
+    padding: 30px;
+    background-color: #030f27;
+    color: #fdbe33;
+}
+
+
+.oh-first2{
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 550;
+}
+.oh-sec2{
+    font-size: 0.8rem;
+    margin: 0;
+    justify-content: center;
+    text-align: justify;
+}
+
+.opnhr2{
+    display: flex;
+        align-items: center;
+        font-size: 40px;
+        
+}
+
+
+.ohicon2{
+    margin-left: 30px;
+}
+
+
+.ender{
+    width: 1312px;
+}
