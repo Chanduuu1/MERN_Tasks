@@ -1,0 +1,157 @@
+.navbar.bg-body-tertiary{
+    padding: 7px;
+}
+.navOwn{
+    display: flex;
+}
+
+.navOwn2{
+    display: flex;
+    align-items: center;
+}
+
+.sign-up {
+    border: 1.3px solid rgb(0, 187, 255);;
+    display: flex;
+    justify-content: center;
+    width: 90px;
+    height: 40px;
+}
+.sign-up a{
+    display: flex;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 187, 255);
+}
+
+
+.customBrand.container-fluid{
+    display: flex;
+        padding-left: 0px;
+    margin-right: 90px;
+}
+
+.customBrand.container-fluid a{
+    font-size: 1.6rem;
+}
+
+.container.logo{
+    padding-right: 0px;
+}
+
+.hero-sect1{
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-head{
+    margin-top: 35px;
+}
+.para{    
+    text-align: center;
+}
+
+.cardsSection{
+    display: flex;
+    justify-content: center;
+}
+
+.card.border-secondary.mb-3{
+    margin: 20px;
+    height: 300px;
+    width: 260px;
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+}
+
+.cardPrice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-mo{
+    color: rgb(134, 134, 134);
+}
+h2.card-mo{
+    word-spacing: 5px;
+}
+.spac{
+    padding: 4px;
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sUpForFree1 {
+    border: 1.8px solid rgb(0, 187, 255);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+}
+.sUpForFree1 a{
+    text-decoration: none;
+}
+.divHandle{
+    display: flex;
+    justify-content: center;
+}
+
+.sUpForFree2 {
+    background-color: rgb(44, 160, 255);
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    font-weight: bold;
+    
+}
+
+.sUpForFree2 a{
+    color: white;
+    text-decoration: none;
+}
+
+.rule-styling{
+    display: flex;
+    justify-content: center;
+}
+
+.cutom-hr{
+    border: 1.2px solid black;
+    width: 1000px;
+}
+
+.sath{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: rgb(115, 115, 115);
+}
+.sath p{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.sath img{
+    margin-left: 15px;
+}
+
+.container-logo1{
+    display: flex;
+    justify-content: center;
+}
