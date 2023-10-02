@@ -1,0 +1,30 @@
+.card-group{
+    width: 250px;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.3s;
+    
+}
+.card-group:hover {
+  transform: translateY(6px); /* Move the card down by 5 pixels on hover */
+}
+
+.cardd-group{
+    display: flex;
+    justify-content: center;
+}
+.custom-hr {
+    margin-top: 50px;
+    border: 2px solid black; 
+    width: 900px;
+    margin-left: 250px; 
+}
+.paddingtohr{
+    justify-content: center;
+}
+.display-5{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
