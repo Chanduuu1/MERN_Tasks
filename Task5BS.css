@@ -1,0 +1,139 @@
+#fname{
+    float: right;
+    clear: both;
+}
+#lname{
+    float: right;
+    clear: both;
+}
+#email{
+    float: right;
+    clear: both;
+}
+#phnno{
+    float: right;
+    clear: both;
+}
+#address{
+    float: right;
+    clear: both;
+}
+#city{
+    float: right;
+    clear: both;
+}
+
+#hosting{
+    height: 19px;
+    width: 19px;
+}
+
+#state1{
+    height: 30px;
+    width: 236px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.formSection-Main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.formSection{
+    background-color: rgba(236, 233, 233, 0.731);
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+form{
+    overflow: hidden;
+}
+input{
+    height: 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+select{
+    float: right;
+    clear: both;
+}
+textarea{
+    float: right;
+    clear: both;
+    width: 200px;;
+}
+
+.radioSath{
+    display: flex;
+}
+.radioSath2{
+    margin-left: 120px;
+    
+}
+
+.icon-info{
+    display: flex; 
+    align-items: center;
+    margin-left: auto;
+    
+}
+.icon-info i{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid.fa-pen{
+    border: 1px solid black;
+    height: 47px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2px;
+    border-radius: 3px 0px 0px 3px;
+}
+
+button{
+    border: none;
+}
+
+.send-button{
+    display: flex;
+    justify-content: center;  
+}
+.send-button i{
+    color: white;
+}
+.send{
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: rgb(255, 181, 78);
+}
+.send button{
+    background-color: rgb(255, 181, 78);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+label{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
