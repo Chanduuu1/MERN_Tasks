@@ -1,0 +1,48 @@
+#textD{
+    color: red;
+    font-size: 0.9rem;
+}
+#textM{
+    color: red;
+    font-size: 0.9rem;
+}
+#textW{
+    color: red;
+    font-size: 0.9rem;
+}
+#textMsg{
+    color: red;
+    font-size: 0.9rem;
+}
+
+#msg{
+    height: 80px;
+}
+.bundle{
+    display: flex;
+    align-items: center;
+    width: 550px;
+
+    
+}
+input{
+    margin-left: 20px;
+    width: 200px;
+    height: 25px;
+    margin-left: auto;
+    
+}
+.encapsulator{
+    margin-left: 400px;
+    margin-top: 200px;
+    
+}
+
+button{
+    margin-left: 250px;
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
