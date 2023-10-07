@@ -1,0 +1,41 @@
+#leftTable{
+    width: 32%;
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+input[type="text"]{
+    width: 98%;
+}
+input[type="password"]{
+    width: 98%;
+}
+#Address{
+    width: 98%;
+    height: 50px;
+}
+#regButton{
+    margin-left: 640px;
+}
+#tabReg{
+    margin-left: 410px;
+    margin-top: 40px;
+     
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#last{
+    text-align: right;
+}
+.container{
+  background: linear-gradient(to right, #ff7f00, #ff0099); /* Define a linear gradient background */
+  
+}
+
+p{
+    color: white;
+    font-weight: bolder;
+}

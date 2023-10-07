@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Task8JS.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>REGISTERATION FORM</h1>
+        <table id="tabReg">
+
+            <tr>
+                <td id="leftTable"><label for="fName">First Name</label></td>
+                <td><div class="row"><input type="text" id="fName"></div> </td>
+                <td> <p id="fn"></p></td>
+            </tr>
+            <tr>
+                <td><label for="lName">Last Name</label></td>
+                <td><input type="text" id="lName"></td>
+                <td> <p id="fn1"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email</label></td>
+                <td><input type="text" id="Email"></td>
+                <td> <p id="fn2"></p></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" id="password"></td>
+                <td> <p id="fn3"></p></td>
+            </tr>
+            <tr>
+                <td><label for="repassword">Re-enter Password</label></td>
+                <td><input type="password" id="repassword"></td>
+                <td> <p id="fn4"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Gender">Gender</label></td>
+                <td><input type="radio" id="male" name="gender">Male<br>
+                    <input type="radio" id="female" name="gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="text" id="age"></td>
+                <td> <p id="fn5"></p></td>
+            </tr>
+            <tr>
+                <td><label for="phnNo">Phone Number</label></td>
+                <td><input type="text" id="phnNo"></td>
+                <td> <p id="fn6"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Address">Address</label></td>
+                <td><textarea id="Address"></textarea></td>
+                <td> <p id="fn7"></p></td>
+            </tr>
+            <tr>
+                <td><label for="State">State</label></td>
+                <td><input type="text" id="State"></td>
+                <td> <p id="fn8"></p></td>
+            </tr>
+            <tr>
+                <td><label for="Country">Country</label></td>
+                <td>
+                    <select name="Country" id="con">
+                        <option value="India">India</option>
+                        <option value="India">Pakistan</option>
+                        <option value="India">USA</option>
+                        <option value="India">England</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Languages">Languages Known</label></td>
+                <td><input type="checkbox" id="lang" name="Hingi">Hingi
+                    <input type="checkbox" id="lang" name="english">English
+                    <input type="checkbox" id="lang" name="Gujrati">Gujrati
+                    <input type="checkbox" id="lang" name="Tamil">Tamil
+                    <input type="checkbox" id="lang" name="Malayalam">Malayalam
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="checkbox" id="declaration">I herby declare that all the given details are ture to my knowledge</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="last">Login to <a href="https://learn.codemithra.com/login/index.php" target="_blank">CLAP platform</a></td>
+            </tr>
+
+        </table>
+        <br>
+        <input id="regButton" type="submit" value="Register" >
+    </div>
+
+    <script src="Task8JS.js"></script>
+</body>
+</html>
