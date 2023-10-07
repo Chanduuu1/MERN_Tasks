@@ -1,0 +1,28 @@
+.trainCont img{
+    width: 320px;
+    height: 240px;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.b{
+    display: flex;
+    justify-content: center;
+}
+
+.encapsulator{
+    width: 1400px;
+}
+button{
+    margin-left: 20px;
+}
+
+.trainCont{
+    position: relative;
+}
+
+#trainn{
+    
+}
